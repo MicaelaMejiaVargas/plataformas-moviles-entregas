@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tp 6</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+  <style>
+    html,
+    body {
+    width:100%;
+    overflow-x: hidden;
+    }
+    .h-img{ 
+      height: 20em;
+      /* object-fit: cover; */ 
+    }
+  </style>
+    <nav class="navbar bg-body-tertiary bg-dark border-bottom border-bottom-dark" data-bs-theme="light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="leviatan.png" alt="Logo" width="50" height="34" class="d-inline-block align-text-top imagen">
+            Leviatán
+          </a>
+          <button class="navbar-toggler  d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse w-auto" id="navbarNav">
+            <ul class="navbar-nav d-lg-none">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+          </div>
+          <li class="nav-item d-none d-lg-block w-auto">
+            <a class="nav-link" href="#">Link 1</a>
+          </li>
+          <li class="nav-item d-none d-lg-block w-auto">
+            <a class="nav-link" href="#">Link 2</a>
+          </li>
+          <li class="nav-item d-none d-lg-block w-auto">
+            <a class="nav-link" href="#">Link 3</a>
+          </li>
+        </div>
+      </nav> <!-- fin de barra de navegacion -->
+  <br>
+  <main id="principal" class="px-3 px-md-5">
+    <!--carrusel-->
+    <div id="carouselExampleAutoplaying" class="carousel slide d-none d-md-block ps-2 pe-2" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="carrusel/bestiaMarina.jpg" class="d-block w-100 h-img" alt="Bestia marina">
+        </div>
+        <div class="carousel-item">
+          <img src="carrusel/muert_leviiatan.jpg" class="d-block w-100 h-img" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="carrusel/serpiente_marina2.jpg" class="d-block w-100 h-img" alt="Jörmungandr">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+      <br>
+    </div>
+    <!--fin carrusel-->
+    <div class="container text-center">
+        <p class="h1">Leviatán</p>
+        <p class="h4">Bestia marina</p>
+    </div>
+    <article class="parrafos col-12 ps-2">
+        <p>Leviatán (del hebreo לִוְיָתָן, liwyatan, enrollado) es una bestia marina gigante narrada en la Biblia. Su creación por Dios se encuentra en el Génesis y Job describe su aspecto físico con semejanzas a un dragón.</p>
+        <p>En los cultos satánicos, se considera uno de los demonios principales que conforma la falsa trinidad demoníaca junto a Lucifer y Belial.</p>
+    </article>
+
+    <!-- Cards -->
+    <div class="row align-items-start gap-3">
+      <div class="card mx-auto col-8 col-md-5 col-lg-5 col-xl-3 col-xxl-3"> <!-- -->
+          <img src="fotito.png" class="card-img-top pt-2" alt="Leviatan siendo asesinado por Dios">
+          <div class="card-body">
+            <p class="card-text">La destrucción de Leviatán, un grabado hecho en 1865 por Gustave Doré.</p>
+          </div>
+      </div>
+      <div class="card mx-auto col-8 col-md-5 col-lg-5 col-xl-3 col-xxl-3">
+          <img src="leviatan-pintura.jpg" class="card-img-top pt-2" alt="Leviatan eatinn eag humans">
+          <div class="card-body">
+             <P>Leviatán.</P>
+          </div>
+      </div>
+      <div class="card mx-auto col-8 col-md-5 col-lg-5 col-xl-3 col-xxl-3">
+        <img src="Lev-Beh-Ziz.jpg" class="card-img-top pt-2" alt="no carga">
+        <div class="card-body">
+          <p class="card-text">The god of war versus the god of thunder</p>
+        </div>
+      </div>
+      <div class="card mx-auto col-8 col-md-5 col-lg-5 col-xl-3 col-xxl-3">
+          <img src="leviatan-juego.jpg" class="card-img-top pt-2" alt="The god of war versus the god of thunder">
+          <div class="card-body">
+            <p class="card-text">The god of war versus the god of thunder</p>
+          </div>
+      </div>
+      <div class="card mx-auto col-8 col-md-5 col-lg-5 col-xl-3 col-xxl-3">
+        <img src="card3.jpg" class="card-img-top" alt="no carga">
+        <div class="card-body">
+          <p class="card-text">carta 5</p>
+        </div>
+      </div>
+      <div class="card mx-auto col-8 col-md-5 col-lg-5 col-xl-3 col-xxl-3">
+        <img src="card5.jpg" class="card-img-top" alt="no carga">
+        <div class="card-body">
+          <p class="card-text">carta 6</p>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <h2 class="tit-apariciones">Apariciones</h2>
+    <div class="accordion col-12" id="accordionExample" >
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Judaísmo
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>Llamado Lotan en la mitología ugarítica, sería el monstruo policéfalo y serpentiforme, encarnación del caos venido para dar inicio a la Creación (cf. Sal LXXIV, 13 y ss.). Según Job, III, 8, los magos podían resucitarlo, pero Dios lo aniquilará definitivamente al fin de los tiempos. Su descripción más detallada aparece en Job, XLI.1​ En el Génesis, Leviatán, es mencionado de forma implícita como una serpiente: "Y creó Dios los grandes monstruos marinos, y todo ser viviente que se mueve". </p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Cristianismo
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            La interpretación cristiana del Leviatán le considera a menudo como un demonio asociado con Satán o el Diablo, y algunos especulan que este es el mismo monstruo que Rahab (Isa 51:9).
+            Algunos intérpretes sugieren que el Leviatán es un símbolo de la humanidad en oposición a Dios, y no es más literal que las bestias mencionadas en Daniel y Revelación.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            En la criptozoología
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse show" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            El uso de la palabra para describir a cualquier gran criatura marina ha dado pie incluso a que en la criptozoología se crea en su existencia real como una criatura desconocida. En su libro, “En la búsqueda de sobrevivientes prehistóricos”, el criptozoólogo Dr. Karl Shuker considera al Leviatán como un mito inspirado, por lo menos en parte, por avistamientos de un hipotético monstruo marino tipo Mosasaurio. Bernard Heuvelmans, en su libro “Dans le sillage des monstres marins” consideraba que esta entidad era un tipo de "Ciempiés marino".
+          </div>
+        </div>
+      </div>
+    </div> 
+    <hr>
+    <!-- Formulario -->
+    <section class="form px-2">
+      <div class="row">
+        <label style="width:90px" for="exampleFormControlInput1" class="col-2 col-form-label ">Nombre</label>
+        <div class="col-12 col-md-10 col-lg-10 col-xl-10 col-xxl-10">
+          <input type="email" class="form-control shadow py-3 bg-body rounded" id="nombre-form">
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <label style="width:90px" for="exampleFormControlInput1" class="col-2 form-label">Email</label>
+        <div class="col-12 col-md-10 col-lg-10 col-xl-10 col-xxl-10">
+          <input type="email" class="form-control shadow py-3 bg-body rounded" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <label style="width:90px" for="exampleFormControlTextarea1" class="col-2 col-form-label w-auto">Comentario</label>
+        <div class="col-12 col-md-10 col-lg-10 col-xl-10 col-xxl-10">
+          <textarea class="form-control shadow py-3 bg-body rounded" id="exampleFormControlTextarea1" rows="5"></textarea>
+        </div>
+      </div>
+      <br>
+      <div class="botones d-flex justify-content-center gap-3 pb-2">
+        <button type="submit" class="btn btn-primary rounded-1">Enviar</button>
+      <button type="reset" class="btn btn-secondary rounded-1">Limpiar</button>
+      </div>
+    </section>
+  </main>
+  <br>
+  <div class="container-fluid footer p-3 gap-3 bg-dark text-white">
+    <div class="d-inline-block justify-content-center col-5 w-auto">Plataformas móviles</div>
+    <div class="float-end col-2 align-items-end w-auto">Mejia sol</div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html

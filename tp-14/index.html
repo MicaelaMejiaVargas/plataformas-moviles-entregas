@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tablero de Puntos - DOM y JavaScript</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container my-1 my-sm-2 my-md-4 my-lg-5">
+    	<h1>Tablero de Puntos</h1>
+        <div class="card">
+            <div class="card-body" style="background-color: rgb(224, 204, 204);">
+                <div class="row text-center">
+                    <div class="col-5">
+                        <span class="display-1">0</span>
+                        <p class="m-0">Local</p>
+                    </div>
+                    <div class="col-2">
+                        <span class="display-1">:</span>
+                    </div>
+                    <div class="col-5">
+                        <span class="display-1">0</span>
+                        <p class="m-0">Visitante</p>
+                    </div>
+                </div>
+
+                <hr class="hr">
+
+                <h2>Actualizar Contador</h2>
+                <div class="row">
+                    <div class="col-12 col-sm-4 my-1" style="margin-left: 9em">
+                        <button class="btn d-block w-100 btn-primary" id="sumar-local">Sumar Equipo Local</button> <br>
+                        <button class="btn d-block w-100 btn-primary" id="restar-local">Restar Equipo Local</button>
+                    </div>
+                    <div class="col-12 col-sm-4 my-1">
+                        <button class="btn d-block w-100 btn-dark" id="sumar-visit">Sumar Equipo Visitante</button> <br>
+                        <button class="btn d-block w-100 btn-dark" id="restar-visit">Restar Equipo Visitante</button>
+                    </div>
+                    <div class="col-12 col-sm-4 my-1">   
+                        <button class="btn d-block w-100 btn-danger" id="resetear">
+                            Reinicio
+                        </button>
+                    </div>
+                    <div class="col-12 col-sm-4 my-1" id="inter"> 
+                        <button class="btn d-block w-100 btn-success" id="exchange">
+                            Intercambiar Puntaje
+                        </button>
+                    </div>
+                    <div class="col-12 col-sm-4 my-1"> 
+                        <button class="btn d-block w-100 btn-info" id="fin">
+                            Finalizar Partido
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html> 

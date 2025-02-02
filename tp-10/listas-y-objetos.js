@@ -1,4 +1,4 @@
-var listaPersonasEjemplo = [
+const listaPersonasEjemplo = [
     {
         "apellido": "Perez",
         "nombre": "Juan",
@@ -22,18 +22,18 @@ var listaPersonasEjemplo = [
         "nombre": "Ana",
         "edad": 30,
         "documento": 45678
-    },
+    }
 ];
 
 //01 - ordenarPorApellido
 function ordenarPorApellido(listaDePersonas) {
-        return listaDePersonas.sort((a, b) => a.apellido.localeCompare(b.apellido));
-    }
-console.log("ordenarPorApellido()", ordenarPorApellido(listaPersonasEjemplo));
+    return listaDePersonas.sort((a, b) => a.apellido.localeCompare(b.apellido));
+}
+console.log("ordenarPorApellido()", ordenarPorApellido([...listaPersonasEjemplo]));
 
 //02 - soloNombres
 function soloNombres(listaDePersonas) {
-    return listaDePersonas.map(persona => persona.nombre); 
+    return listaDePersonas.map(persona => persona.nombre);
 }
 console.log("soloNombres()", soloNombres(listaPersonasEjemplo));
 
